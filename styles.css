@@ -5,27 +5,42 @@ body {
   }
   
   header {
-    background-color: white;
+    display: grid;
+    background-color: #D9D9D9;
+  }
+  
+  .section_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
   }
-  
-  header h1 {
-    margin: 0;
+
+  #imagem {
+    height: 100px;
   }
-  
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+
+  #forma_contato {
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 40%;
+    font-weight: bold;
+    font-size: 10pt;
   }
-  
-  nav ul li {
-    display: inline;
-    margin-right: 10px;
+
+  .section_2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #E6E6E6;
+    display: flex;
+    justify-content: space-evenly;
   }
-  
-  nav ul li a {
+
+  .section_2 a {
+    color: black;
     text-decoration: none;
+    font-weight: bold;
+    font-size: 12pt;
   }
   
   .main {
