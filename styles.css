@@ -14,11 +14,18 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px;
+    /* padding: 5px; */
     background-color: #0B2447;
   }
 
- 
+  .section_1 p {
+    margin: 0;
+  }
+
+ .line_menu {
+  display: flex;
+  align-items: center;
+ }
 
   #logo_image {
     height: 100px;
@@ -26,7 +33,8 @@ body {
   }
 
   #forma_contato {
-    display: inline-flex;
+    display: flex;
+    align-items: center;
     justify-content: space-evenly;
     width: 40%;
     font-weight: bold;
