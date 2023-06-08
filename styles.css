@@ -9,13 +9,13 @@
 
 
 body {
-    font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #F2F2F2;
-    
+    background-color: #fff;
+
   }
-  
+
 
   html {
     scroll-behavior: smooth;
@@ -47,36 +47,41 @@ body {
   /* Indice */
 
   .menu_index {
-    padding: 20px 25%;
     background-color: #F2F2F2;
     display: flex;
-    justify-content: space-evenly;
-    position: sticky;
+    align-items: center;
+    justify-content: center;
+    position:sticky;
     top: 0;
     z-index: 9;
   }
 
-  .menu_index a {color: black; text-decoration: none; font-size: 10pt;}
-  
+  .menu_index a {
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 1em;}
+
   .corpo {
-    position: absolute;
+    position: relative;
     width: 100%;
-    top: 100vh;
+    top: -17vh;
   }
 
   /* Doação */
 
   #donations{
-    background-color: #F2F2F2;
-    width: 80%;
+    background-color: #FFF;
     margin: auto;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
+    padding: 30px;
   }
   .section_flex{
     display: flex;
-    justify-content: space-around;
+    margin: 20px;
+    justify-content: space-between;
   }
   .section_flex p{
     text-align: justify;
@@ -87,18 +92,21 @@ body {
   #seja_um_doador{
     text-align: justify;
     padding: 30px;
-    background-color: #CED3F2;
+    background-color: #F2F2F2;
     border-radius: 10px;
     justify-content: center;
+    box-shadow: 10px 10px #96A0D9;
   }
   .button_allpage{
-    width: 200px;
+    cursor: pointer;
+    width: 100px;
     height: 60px;
-    background-color: #9ec8ff;
-    border: 1px solid #006aff;
-    border-radius: 10px;
-    box-shadow: 2px 5px 14px 5px rgba(27, 48, 54, 0.705);
-    margin-top: 70px;
+    background-color: #fff;
+    color: #000000;
+    border-radius: 2%;
+    margin-top: 100px;
+    border: none;
+    margin: 30px;
   }
 
   #formatacao_h3{
@@ -111,11 +119,11 @@ body {
     text-align: center;
   }
   /* Fim doação */
-  
+
   .main h2 {
     margin-top: 0;
   }
-  
+
   .btn {
     display: inline-block;
     background-color: #333;
@@ -144,12 +152,10 @@ body {
     flex-direction: column;
     width: 80%;
     margin: auto;
-    background-color: #CED3F2;
+    background-color: #F2F2F2;
     border-radius: 10px;
-    padding-top: 5px;
-    padding-right: 10px;
-    padding-bottom: 15px;
-    padding-left: 20px;
+    padding: 10px 10px 30px 30px;
+    box-shadow: 10px 10px #96A0D9;
 
   }
   .imgsizeSN{
@@ -158,9 +164,55 @@ body {
   border-radius: 10px;
   }
   .textsizeSN{
-    width: 569px;
-    height: 289px;
-    padding-left: 20px;
+    font-size: 1.2em;
+    padding: 30px;
+  }
+  h3{
+    padding-top: 20px;
+    font-size: 2.3em;
+  }
+  .menu_index a:hover{
+    transition: 0.7s;
+    background-color: #CED3F2;
+    position: static;
+  }
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #00ff00;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
   }
 
-  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .button:hover span {
+    padding-right: 25px;
+  }
+
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
