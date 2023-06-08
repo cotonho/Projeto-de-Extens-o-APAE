@@ -124,18 +124,26 @@ body {
   .sobreNos{
     display: flex;
     flex-direction: column;
-    width: 1180px;
+    width: 1200px;
     height: 601px;
     margin: auto;
     background-color: #5e7594;
     border-radius: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 20px;
 
   }
   .imgsizeSN{
   width: 406px;
   height: 494px;
+  border-radius: 10px;
   }
   .textsizeSN{
     width: 569px;
     height: 289px;
+    padding-left: 20px;
   }
+
+  
