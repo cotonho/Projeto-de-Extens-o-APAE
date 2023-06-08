@@ -2,22 +2,27 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    
   }
   
-  header {
-    display: grid;
-    background-color: #0B2447;
-  }
+
+  html {
+    scroll-behavior: smooth;
+}
   
   .section_1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 5px;
+    background-color: #0B2447;
   }
+
+ 
 
   #logo_image {
     height: 100px;
+    padding-left: 50px;
   }
 
   #forma_contato {
@@ -34,6 +39,9 @@ body {
     background-color: #E6E6E6;
     display: flex;
     justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    z-index: 9;
   }
 
   .section_2 a {
@@ -46,7 +54,7 @@ body {
 
   #section_3{
     background-color: #a6bedd;
-    width: 1180px;
+    width: 1200px;
     height: 601px;
     margin: auto;
     display: flex;
