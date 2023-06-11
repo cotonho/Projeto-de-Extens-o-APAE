@@ -226,6 +226,32 @@ body {
     right: 0;
   }
 
+  .eventos{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    background-color: #96A0D9;
+    border-radius: 10px;
+    padding: 10px 10px 30px 30px;
+    box-shadow: 10px 10px #CED3F2;
+    color: white;
+  }
+
+  .contentEventos{
+    display: flex;
+    padding: auto;
+  }
+.textsizeEventos{
+  font-size: 1.2em;
+    padding: 30px;
+}
+
+.imgsizeEv{
+  width: px;
+  height: 200px;
+  border-radius: 10px;
+}
   footer {
     background-color: #6064BF;
     color: #fff;
