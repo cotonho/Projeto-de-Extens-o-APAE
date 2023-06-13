@@ -229,7 +229,7 @@ body {
   .eventos{
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 82%;
     margin: auto;
     background-color: #96A0D9;
     border-radius: 10px;
@@ -251,6 +251,48 @@ body {
   width: px;
   height: 200px;
   border-radius: 10px;
+}
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto auto;
+  padding: 10px;
+  gap: 10px;
+}
+.grid-item {
+  display: inline-block;
+  border-radius: 10px;
+  border-width: 2px;
+  width: 250px;
+  height: 400px;
+  padding: 10px 10px 0 10px;
+
+}
+.grid-item:hover{
+  background-color: #96A0D9;
+  color: white;  
+}
+.imgfunc{
+width: 100%;
+height: 300px;
+border-radius: 5px;
+}
+.funcionarios{
+  display: flex;
+  flex-direction: column;
+  width: 82%;
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px 10px 30px 30px;
+}
+.oficioFuncionarios{
+  font-size: 19px;
+  padding: 0 10px 0 10px;
+  font-weight: 500;
+}
+.nomeFuniconarios{
+  font-size: 25px;
+  text-align: center;
+  margin-top: -28px;
 }
   footer {
     background-color: #6064BF;
