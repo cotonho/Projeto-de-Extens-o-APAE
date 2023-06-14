@@ -254,7 +254,7 @@ body {
 }
 .grid-container {
   display: inline-grid;
-  grid-template-columns: auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto ;
   padding: 10px;
   gap: 10px;
 }
@@ -265,15 +265,15 @@ body {
   width: 250px;
   height: 400px;
   padding: 10px 10px 0 10px;
-
+ transition: 0.9s;
 }
 .grid-item:hover{
-  background-color: #96A0D9;
+  transform: scale(1.1);
   color: white;  
 }
 .imgfunc{
 width: 100%;
-height: 300px;
+height: 280px;
 border-radius: 5px;
 }
 .funcionarios{
@@ -285,14 +285,18 @@ border-radius: 5px;
   padding: 10px 10px 30px 30px;
 }
 .oficioFuncionarios{
-  font-size: 19px;
+  font-size: 15px;
   padding: 0 10px 0 10px;
   font-weight: 500;
+  text-align: center;
+  color: #32369a;
+  padding-top: 5px;
 }
 .nomeFuniconarios{
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
-  margin-top: -28px;
+  margin-top: -15px;
+  color: #32369a;
 }
   footer {
     background-color: #6064BF;
