@@ -84,6 +84,7 @@ body {
   }
 
   .corpo {
+    margin-bottom: 0px;
     position: relative;
     width: 100%;
     top: -17vh;
@@ -298,9 +299,41 @@ border-radius: 5px;
   margin-top: -15px;
   color: #32369a;
 }
-  footer {
-    background-color: #6064BF;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
+
+#h1_location{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #6064BF;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+#footer {
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+}
+
+
+.redes {
+  display: flex;
+  height: 5vh;
+  margin-bottom: 10px;
+}
+
+.redes img {
+  margin-right: 5px;
+}
+
+#copyright {
+  font-size: 20px;
+  display: block;
+}
+
+#footer_img {
+  height: 20vh;
+}
