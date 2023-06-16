@@ -337,3 +337,20 @@ footer {
 #footer_img {
   height: 20vh;
 }
+
+.galeria {
+  text-align: center;
+  width: 100%;
+  
+  
+}
+
+.servicos{
+  text-align: justify;
+    padding: 30px;
+    background-color: #96A0D9;
+    border-radius: 10px;
+    justify-content: center;
+    box-shadow: 10px 10px #CED3F2;
+    color: white;
+}
