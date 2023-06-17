@@ -228,6 +228,7 @@ body {
   }
 
   .eventos{
+    text-align: center;
     display: flex;
     flex-direction: column;
     width: 82%;
@@ -238,21 +239,49 @@ body {
     box-shadow: 10px 10px #CED3F2;
     color: white;
   }
-
-  .contentEventos{
+  
+  .contentEvento1{
     display: flex;
     padding: auto;
   }
-.textsizeEventos{
+.textsizeEvento1{
   font-size: 1.2em;
-    padding: 30px;
+  padding: 30px;
 }
 
 .imgsizeEv{
-  width: px;
-  height: 200px;
+  display: flex;
+  width: 150px;
+  height: 150px;
   border-radius: 10px;
 }
+
+.contentEvento2{
+  display: flex;
+  padding: auto;
+}
+
+.textsizeEvento2{
+  font-size: 1.2em;
+  padding: 30px;
+}
+
+.contentEvento3{
+  display: flex;
+  padding: auto;
+}
+
+.textsizeEvento3{
+  font-size: 1.2em;
+  padding: 30px;
+}
+
+
+
+
+
+
+
 .grid-container {
   display: inline-grid;
   grid-template-columns: auto auto auto auto ;
