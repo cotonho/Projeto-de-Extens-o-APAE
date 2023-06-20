@@ -154,6 +154,9 @@ body {
     display: flex;
     padding: auto;
   }
+  .boxsobreNos{
+    display: block;
+  }
   .sobreNos{
     display: flex;
     flex-direction: column;
@@ -165,6 +168,25 @@ body {
     box-shadow: 10px 10px #CED3F2;
     color: white;
 
+  }
+  .buttonSaibaMais{
+    display: flex;
+    border-radius: 4px;
+    background-color: #6064BF;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: -100px 14px 0 357px;
+
+  }
+  .buttonsizesaibaMais{
+    width: 200px;
+    
   }
   .imgsizeSN{
   width: 406px;
@@ -194,6 +216,28 @@ body {
     cursor: pointer;
     margin: -50px 28px 0 0;
 
+  }
+  .buttonSaibaMais span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .buttonSaibaMais span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .buttonSaibaMais:hover span {
+    padding-right: 25px;
+  }
+
+  .buttonSaibaMais:hover span:after {
+    opacity: 1;
+    right: 0;
   }
 
   .button span {
