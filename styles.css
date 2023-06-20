@@ -251,11 +251,22 @@ body {
 
 .imgsizeEv{
   display: flex;
-  width: 150px;
-  height: 150px;
+  width: 25vh;
+  height: 20vh;
   border-radius: 10px;
 }
-
+.eventospartes{
+  text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 82%;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 10px 30px 30px;
+    box-shadow: 10px 10px #CED3F2;
+    color: black;
+}
 .contentEvento2{
   display: flex;
   padding: auto;
