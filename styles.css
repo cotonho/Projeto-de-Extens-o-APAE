@@ -260,11 +260,11 @@ body {
   gap: 10px;
 }
 .grid-item {
-  display: inline-block;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
   border-radius: 10px;
   border-width: 2px;
-  width: 250px;
-  height: 400px;
   padding: 10px 10px 0 10px;
  transition: 0.9s;
 }
@@ -273,17 +273,15 @@ body {
   color: white;  
 }
 .imgfunc{
-width: 100%;
-height: 280px;
+width: 15vw;
 border-radius: 5px;
 }
 .funcionarios{
   display: flex;
   flex-direction: column;
-  width: 82%;
+  width: 100%;
   margin: auto;
   border-radius: 10px;
-  padding: 10px 10px 30px 30px;
 }
 .oficioFuncionarios{
   font-size: 15px;
