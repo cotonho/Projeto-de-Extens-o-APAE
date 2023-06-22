@@ -199,6 +199,7 @@ body {
   }
   h3{
     padding-top: 20px;
+    padding-bottom: 20px;
     font-size: 2.3em;
   }
 
@@ -263,6 +264,10 @@ body {
   .button:hover span:after {
     opacity: 1;
     right: 0;
+  }
+  #profissõesContainer{
+    width: 100%;
+    padding: 0 137px 0 171px;
   }
 
   .eventos{
