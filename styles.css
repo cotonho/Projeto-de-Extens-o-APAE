@@ -25,14 +25,17 @@ body {
 
   .cabecalho {
     display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     /* padding: 5px; */
     background-color: #6064BF;
   }
 
-  .cabecalho p {margin: 0;}
- 
+  .cabecalho p {
+    margin: 0;
+  }
+
   .menu_index a:hover{
     transition: 0.7s;
     background-color: #CED3F2;
@@ -57,7 +60,7 @@ body {
     text-decoration: none;
     font-size: 1em;}
 
-  
+
   #logo_image {height: 100px; padding-left: 50px;}
 
 .imgAjudar img{
@@ -85,13 +88,6 @@ body {
     color: white;
   }
 
-  .corpo {
-    margin-bottom: 0px;
-    position: relative;
-    width: 100%;
-    top: -17vh;
-  }
-
   /* Doação */
 
   #donations{
@@ -103,18 +99,24 @@ body {
     padding: 30px;
     width: 85%;
   }
+  .img{
+    width: 20em;
+    height: 10em;
+  }
+
   .comoajudarP{
     display: flex;
     justify-content: space-between;
-    margin: 55px 0 55px 0;
+    margin: 55px 0px 55px 0px;
   }
   .comoajudarP p{
     text-align: justify;
   }
   .doa_produto{
     width: 500px;
+    margin: 50px;
   }
-  
+
   .button_allpage{
     cursor: pointer;
     width: 100px;
@@ -145,17 +147,13 @@ body {
     text-decoration: none;
     margin-top: 20px;
   }
+  .divimg{
+    display: flex;
+  }
 
   .mainimg{
     width: 100%;
     height: 581px;
-  }
-  .contentSB{
-    display: flex;
-    padding: auto;
-  }
-  .boxsobreNos{
-    display: block;
   }
   .sobreNos{
     display: flex;
@@ -169,8 +167,10 @@ body {
     color: white;
 
   }
+  span{
+    color: #fff;
+  }
   .buttonSaibaMais{
-    display: flex;
     border-radius: 4px;
     background-color: #6064BF;
     border: none;
@@ -181,20 +181,13 @@ body {
     width: 200px;
     transition: all 0.5s;
     cursor: pointer;
-    margin: -100px 14px 0 357px;
-
-  }
-  .buttonsizesaibaMais{
-    width: 200px;
-    
   }
   .imgsizeSN{
-  width: 406px;
-  height: 494px;
-  border-radius: 10px;
+    width: 40vh;
+    height: 50vh;
+    border-radius: 10px;
   }
   .textsizeSN{
-    font-size: 1.2em;
     padding: 30px;
   }
   h3{
@@ -212,7 +205,7 @@ body {
     text-align: center;
     font-size: 28px;
     padding: 10px;
-    width: 200px;
+    width: 7em;
     transition: all 0.5s;
     cursor: pointer;
     margin: -50px 28px 0 0;
@@ -282,7 +275,7 @@ body {
     box-shadow: 10px 10px #CED3F2;
     color: white;
   }
-  
+
   .contentEvento1{
     display: flex;
     padding: auto;
@@ -329,13 +322,6 @@ body {
   font-size: 1.2em;
   padding: 30px;
 }
-
-
-
-
-
-
-
 .grid-container {
   display: inline-grid;
   grid-template-columns: auto auto auto auto ;
@@ -343,21 +329,26 @@ body {
   gap: 10px;
 }
 .grid-item {
+  border-color:#888383;
+  margin:8px;
   align-items: center;
   display: flex;
   flex-direction: column;
   border-radius: 10px;
   border-width: 2px;
-  padding: 10px 10px 0 10px;
- transition: 0.9s;
+  padding: 5px 5px 0 5px;
+  transition: 0.9s;
+  background-color:#ffffff;
 }
 .grid-item:hover{
   transform: scale(1.1);
-  color: white;  
+  color: white;
+  background-color: #CED3F2;
 }
 .imgfunc{
 width: 15vw;
 border-radius: 5px;
+margin: 20px;
 }
 .funcionarios{
   display: flex;
@@ -371,14 +362,14 @@ border-radius: 5px;
   padding: 0 10px 0 10px;
   font-weight: 500;
   text-align: center;
-  color: #32369a;
+  color: #000000;
   padding-top: 5px;
 }
 .nomeFuniconarios{
   font-size: 20px;
   text-align: center;
   margin-top: -15px;
-  color: #32369a;
+  color: #6064BF;
 }
 
 #h1_location{
@@ -422,8 +413,8 @@ footer {
 .galeria {
   text-align: center;
   width: 100%;
-  
-  
+
+
 }
 
 .servicos{
@@ -437,6 +428,82 @@ footer {
     display: flex;
     flex-direction: column;
     width: 100%;
-    
-    
 }
+/* Ajustando o nav */
+
+.button-mobile {
+  display: none;
+  align-self: flex-start;
+  align-items: center;
+  margin: 16px;
+  background:transparent;
+  border: 0;
+}
+
+.menu-mobile{
+  display: none;
+}
+.menu-mobile-active span{
+  padding: 20px;
+}
+.menu-mobile-active{
+  width: 40vw;
+  height: 100vh;
+  background-color:#000000;
+  z-index: 99;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  overflow: hidden;
+}
+.menu-mobile-active button{
+  background:transparent;
+  border: 0;
+  color:inherit;
+  margin-bottom: 16px;
+}
+.menu-mobile-active button > span{
+  display: inline-flex;
+  align-items: center;
+}
+.mobile-text{
+  font-size: 22px;
+  margin-left: 8px;
+}
+@media (max-width: 969px) {
+  .imgsizeSN{
+    display: none;
+  }
+}
+@media (max-width: 1131px) {
+ #forma_contato,.imgLogo{
+  display: none;
+ }
+}
+
+@media (max-width:827px) {
+  .menu_index{
+    display:none;
+  }
+ .button-mobile{
+  display: flex;
+ }
+}
+.button-mobile span{
+  font-size: 18px;
+}
+.nutton-close span i {
+  font-size: 40px;
+}
+@media (max-width: 1091px) {
+  .imgsizeEv{
+   display: none;
+  }
+ }
+ #formatacao_h4{
+  margin-top: 20px;
+ }
