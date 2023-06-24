@@ -465,6 +465,7 @@ footer {
   padding: 20px;
 }
 .menu-mobile-active{
+  font-size: 5vw;
   width: 40vw;
   height: 100vh;
   background-color:#000000;
@@ -476,7 +477,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: start;
-  justify-content: center;
+  justify-content: top;
   overflow: hidden;
 }
 .menu-mobile-active button{
@@ -490,7 +491,7 @@ footer {
   align-items: center;
 }
 .mobile-text{
-  font-size: 22px;
+  font-size: 4vw;
   margin-left: 8px;
 }
 @media (max-width: 969px) {
@@ -505,6 +506,8 @@ footer {
 }
 
 @media (max-width:980px) {
+
+  .imgsizeSN{display: none;}
 
   .buttonInicio{display: flex;}
 
