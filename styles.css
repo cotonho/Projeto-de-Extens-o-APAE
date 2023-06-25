@@ -14,6 +14,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #fff;
+    cursor: pointer;
 
   }
 
@@ -53,7 +54,6 @@ body {
     top: 0;
     z-index: 9;
   }
-
   .menu_index a {
     padding: 20px;
     color: black;
@@ -96,7 +96,6 @@ body {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    padding: 30px;
     width: 85%;
   }
   .img{
@@ -107,7 +106,6 @@ body {
   .comoajudarP{
     display: flex;
     justify-content: space-between;
-    margin: 55px 0px 55px 0px;
   }
   .comoajudarP p{
     text-align: justify;
@@ -149,6 +147,8 @@ body {
   }
   .divimg{
     display: flex;
+    text-align: center;
+    justify-content: center;
   }
 
   .mainimg{
@@ -156,16 +156,17 @@ body {
     height: 581px;
   }
   .sobreNos{
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     width: 80%;
-    margin: auto;
+    margin-left: 10em;
+    margin-right: 10em;
     background-color: #96A0D9;
     border-radius: 10px;
     padding: 10px 10px 30px 30px;
     box-shadow: 10px 10px #CED3F2;
     color: white;
-
   }
   span{
     color: #fff;
@@ -278,7 +279,7 @@ body {
   }
   #profissõesContainer{
     width: 100%;
-    padding: 0 137px 0 171px;
+    padding: 0 3rem 0 3rem;
   }
 
   .eventos{
@@ -376,7 +377,7 @@ margin: 20px;
   border-radius: 10px;
 }
 .oficioFuncionarios{
-  font-size: 15px;
+  font-size: 1.2em;
   padding: 0 10px 0 10px;
   font-weight: 500;
   text-align: center;
@@ -384,7 +385,7 @@ margin: 20px;
   padding-top: 5px;
 }
 .nomeFuniconarios{
-  font-size: 20px;
+  font-size: 1.5em;
   text-align: center;
   margin-top: -15px;
   color: #6064BF;
@@ -446,6 +447,9 @@ footer {
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+h2{
+  margin-top: 20px;
 }
 /* Ajustando o nav */
 
