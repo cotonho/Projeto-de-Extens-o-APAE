@@ -160,8 +160,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 80%;
-    margin-left: 10em;
-    margin-right: 10em;
+    margin-left: 10%;
     background-color: #96A0D9;
     border-radius: 10px;
     padding: 10px 10px 30px 30px;
