@@ -156,8 +156,9 @@ body {
     height: 581px;
   }
   .sobreNos{
-    margin-top: 40px;
+    margin-top: -90px;
     display: flex;
+    position: relative;
     flex-direction: column;
     width: 80%;
     margin-left: 10em;
