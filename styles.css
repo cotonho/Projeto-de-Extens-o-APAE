@@ -136,7 +136,7 @@ body {
   .main h2 {
     margin-top: 0;
   }
-
+  
   .btn {
     display: inline-block;
     background-color: #333;
@@ -279,7 +279,7 @@ body {
   }
   #profissõesContainer{
     width: 100%;
-    padding: 0 3rem 0 3rem;
+    padding: 0 9rem 0 11rem;
   }
 
   .eventos{
@@ -314,7 +314,7 @@ body {
   text-align: center;
     display: flex;
     flex-direction: column;
-    width: 82%;
+    width: 80%;
     margin: auto;
     background-color: white;
     border-radius: 10px;
